@@ -50,7 +50,7 @@ function varargout = lolChuck(opts)
 %
 JSONLAB_URL = 'https://www.mathworks.com/matlabcentral/fileexchange/33381-jsonlab--a-toolbox-to-encode-decode-json-files';
 assert(exist('loadjson.m')==2,...
-  'LolChuck requires the JSONlab package. Get your copy at %s.',JSONLAB_URL);
+  'LolChuck requires the JSONlab package. Get your copy at:\n%s',JSONLAB_URL);
 
 URL_BASE = 'http://api.icndb.com/jokes/random';
 
